@@ -21,7 +21,7 @@
     <groupId>com.mysite</groupId>
     <artifactId>mysite</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <description>My Site</description>
 
     <modules>
