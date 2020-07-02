@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'mvn clean install'
+        echo 'hello'
       }
     }
 
