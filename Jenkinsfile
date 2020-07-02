@@ -1,7 +1,12 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'maven:3.6-alpine'
+    }
+
+  }
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh 'mvn clean install'
       }
