@@ -1,10 +1,5 @@
 pipeline {
-  agent {
-    docker {
-      image 'maven:3.6-alpine'
-    }
-
-  }
+  agent any
   stages {
     stage('error') {
       steps {
