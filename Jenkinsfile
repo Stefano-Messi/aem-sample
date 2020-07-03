@@ -9,6 +9,7 @@ pipeline {
     stage('error') {
       steps {
         echo 'hello'
+        sh 'mvn clean install'
       }
     }
 
