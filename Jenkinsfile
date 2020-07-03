@@ -9,7 +9,7 @@ pipeline {
     stage('error') {
       steps {
         echo 'hello'
-        sh 'mvn clean install'
+        sh 'mvn clean install -PautoInstallPackage -Daem.host=localhost'
       }
     }
 
